@@ -1,0 +1,866 @@
+
+/* html {
+    width: 71%;
+} */
+
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+:root {
+    --heading-size: 5rem;
+    /* --heading-width:  */
+}
+
+.wise {
+    margin: 0px 0px 50px 0px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 110px;
+}
+@media (max-width:480px) {
+    .heading {
+        font-size: 1rem;
+    }
+}
+
+
+.p1 {
+    text-align: center;
+    width:100%;
+    font-family: Georgia;
+    font-weight: 100;
+}
+
+.section-1 {
+    /* margin:  ; */
+    display: flex;
+    flex-direction: column;
+}
+.spin {
+    align-self: center;
+    margin-bottom: 90px;
+    /* width: 700px; */
+}
+.open-send {
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    margin-bottom: 120px;
+    flex-wrap: wrap;
+    width: 100%;
+    /* align-items: center; */
+}
+
+/* .open {
+    background-color: rgb(98, 202, 98);
+    border-radius: 30px;
+    padding: 10px;
+} */
+
+/* .send {
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    border: solid;
+} */
+.section-2 {
+    display: flex;
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap-reverse; */
+    /* width: 100%; */
+    /* margin-left: 20px; */
+    /* background-color: red; */
+    padding: 10px;
+    padding-right: -10px;
+    position: relative;
+}
+
+.img1 {
+    width: 45%;
+}
+
+.img2 {
+    position: absolute;
+    width: 22%;
+    left: 47%;
+    bottom: -5%;
+    /* z-index: -1; */
+}
+.part1 {
+    justify-content: left;
+    margin-top: 20px;
+    width: 55%;
+    /* background-color: blue; */
+}
+
+/* .part2 {
+    /* height:650px; */
+    /* width: %;  
+    background-color: black;
+    position: relative;
+    width: 20%;
+} */
+
+.asv {
+    width: 80%;
+}
+
+@media (max-width: 550px) {
+        .section-2 {
+            display: flex;
+            flex-wrap: wrap-reverse;
+            background-color: red;
+        }
+
+        .part1 {
+            margin-top: 20%;
+            width: 100%;  
+        }
+        
+        .img1 {
+            width: 100%;
+            margin-left: -12%;
+        }
+        .img2 {
+            width: 48%;
+            left: 45%;
+            bottom: 35%;
+            /* margin-top: ; */
+            /* padding-bottom: 15px; */
+            /* z-index: -1; */
+        }
+        .asv {
+            width: 100%;
+        }
+}
+
+.bold {
+    font-size: 40px;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+@media (min-width: 900px) {
+    .bold {
+            width: 70%;
+        }
+}
+
+#o {
+    width:fit-content;
+    margin: 15px 0px 10px 0px;  
+}
+#s {
+    width:fit-content;
+    width: 126px;
+    margin: 0px 0px 20px 0px; 
+}
+
+.os {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+
+
+
+
+/* .but {
+    background-color: rgb(163, 241, 117);
+    border-radius: 30px;
+    padding: 14px;
+    border: none;
+    width: 200px;
+    font-weight: 500;
+    font-family: Georgia;
+} */
+
+.but:hover{
+    background-color: rgb(137, 230, 27);
+    border-radius: 30px;
+    /* padding-bottom: 3px; */
+}
+
+.but2 {
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 13.5px;
+    border-width: 1px; 
+    border: 0.5px solid black;
+    width: 200px;
+    font-family: Georgia;
+    font-weight: 500;
+}
+
+.but2:hover{
+ background-color: rgb(137, 230, 27); 
+ border: 1px solid rgb(137, 230, 27);
+}
+
+
+
+.apple {
+    margin: 20px 30px 0px 0px;
+}
+
+.play {   
+    margin-top: 20px 0px 0px 0px;
+}
+
+/* @media (max-width: 700px) {
+    .apple {
+        margin-right: 0px;
+    }
+} */
+
+/* @media (max-width: 690px) {
+    .apep {
+        width: 100%
+    }
+} */
+
+.options {
+    width: 100px;
+}
+
+
+.section-3{
+    margin-top: 260px;
+    padding-left: 10%;
+    background-color: rgb(180, 255, 118);
+    height: 100vh;
+    padding-bottom: 100px;
+    /* display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column; */
+}
+
+.you-send {
+    margin-bottom: -1px;
+}
+
+.search-USD {
+    display: flex;
+    border: .5px solid;
+    /* width: fit-content; */
+    border-radius: 10px;
+    /* width: 30em; */
+}
+
+.search-USD:hover {
+    outline: .5px solid;
+    transition-delay: .1s;
+}
+
+.search {
+    border: none;
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.USD {
+    border: none;
+    width: 20%;
+
+    border-radius: 10px;
+}
+
+.form-2 {
+    display: flex;
+    justify-content: space-between;
+    /* grid-template-columns: 1fr 1fr; */
+    /* background-color: red; */
+    /* padding: 0px; */
+}
+
+ .form {
+    /* margin-left: 17px; */
+        width: 60%;
+        background-color: white;
+        border-radius: 30px;
+        padding: 20px;
+        /* height: fit-content;  */
+} 
+
+.flex-form {
+    height: 100%;
+    border: solid;
+    position: relative ;
+}
+
+/* .form-2-2 { */
+    /* margin-top: 10px; */
+    /* justify-self: flex-end; */
+    /* margin-left: 30px; */
+    /* text-align: right; */
+    
+    /* position: relative; */
+/* } */
+
+.form-2-1 {
+    margin-left: -22px;
+}
+
+.form-2-3 {
+    display :grid;
+    grid-template-columns: 1fr  1fr;
+}
+
+.Guarantee {
+    width: fit-content;
+}
+
+.Guarantor {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.one {
+    margin: 10px;
+}
+
+.tow {
+    margin: 20px;
+    margin-right: 0px;
+    /* margin-left: 155px; */
+    position:relative;
+    /* right: 0; */
+}
+
+.tow-1 {
+    position: relative;
+    bottom: 0;
+    text-align: right;
+    border: none;
+}
+
+.two {
+    margin: 20px;
+    margin-top: -7px;
+    text-align: right;
+    margin-right: 0px;
+}
+
+.owt {
+    margin: -7px 0px 0px 0px;
+    text-align: right;
+    /* margin-right: 10px; */
+}
+
+.one2 {
+    margin-left: -11px;
+    margin-bottom: 5;
+    margin-bottom: 10px;
+}
+
+.you-could-arrive {
+    margin: 30px 0px 30px 0px;
+}
+
+.price-started {
+    margin-top: 45px;
+    margin-bottom: 0px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    /* background-color: red; */
+}
+@media (max-width: 875px){
+    .price, .started, .started-1 {
+        width: 100%;
+    }
+}
+@media (max-width: 770px) {
+    
+    .section-3 {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .form {
+        width: 400px;
+        /* margin-right: 20px; */
+    }
+
+}
+.save-up-to {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.top {
+    padding-top: 100px;
+}
+
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.card {
+    font-size: 30px;
+    font-family:Georgia;
+    margin: 40px 0px 30px 0px;
+}
+
+.save {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.order-learn {
+    row-gap: 15px;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+}
+
+.interest-feature {
+    display: flex;
+    flex-direction: column;
+    /* grid-template-areas: 
+    'head'
+    'body'
+    'image'; */
+    /* grid-template-columns: 50px 50px;
+    grid-template-rows: 1fr 1fr 1fr; */
+    position: relative;
+    background-color: #fff;
+    /* margin:10rem 20rem 20rem 30rem; */
+    padding: 20px;
+    border-radius: 20px;
+    /* width: 250px; */
+    /* width: 40%; */
+    /* height: 40vh; */
+    margin: 190px -300px 15px 520px;
+}
+
+.smile {
+    position: absolute;
+    height: 500px;
+}
+
+.if {
+    font-size: 24px;
+    font-family: Georgia;
+    margin-bottom: 14px;
+    /* margin: 40px 0px 30px 0px; */
+}
+
+.blue-green {
+    width: 120px;
+    align-self: flex-end;
+}
+
+.smile-interest {
+    margin: 10%;
+    display: flex;
+}
+
+.nice-123 {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 25px;
+}
+
+.nice-2 {
+    width: 30%;
+}
+
+.nice-1, .nice-2, .nice-3 {
+    margin: 10px;
+    color:black;
+}
+
+@media (max-width: 638px){
+    .nice-123 {
+        /* display: flex; */
+        flex-direction: column;
+        /* justify-content: space-between; */
+        /* flex-wrap: wrap; */
+        font-size: 1.2rem;
+    }
+    .nice-2 {
+        width: 160%;
+    }
+    .nice-1,
+    .nice-2,
+    .nice-3 {
+        margin: 20px;
+    }
+}
+
+.business-account {
+    background-color: rgb(0, 50, 0);
+    /* width:300%;
+    height: 40px; */
+    color:rgb(148, 230, 148);
+}
+
+.but-learn:hover {
+    color: rgb(148, 230, 148);
+}
+
+
+.business-account:hover, .but-learn:hover {
+    background-color: rgb(0, 20, 0);
+}
+
+.but-learn {
+    /* width: 400%;
+    height: 40px;  */
+    color: rgb(0, 25, 0);
+}
+
+.b {
+    width: 40em;
+    height: 40px;
+}
+
+@media (max-width: 638px) {
+    .b {
+        width: 30em;
+        height: 40px;
+        }
+    .nice-2 {
+        width: 100%;
+    }
+}
+
+.section-5 {
+    background-color: rgb(163, 241, 117);
+    padding: 80px 20px 20px 20px;
+}
+
+.trusted {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 34px;
+    font-family: Georgia;
+    color: rgb(0, 50, 0);
+}
+
+.global {
+    width: 365px;
+    font-size: 18px;
+    font-family:Georgia;
+    margin-bottom: 26px;
+}
+
+.card-1 {
+    position: relative;
+    /* left: 10px;
+    bottom: -20px; */
+    /* width: 100%; */
+    /* width: 715px; */
+
+    right: -26%;
+    bottom: -24px; 
+    width: 75%;
+}
+
+.section-6 {
+    padding: 80px 20px 80px 20px;
+    display: grid;
+    height: 500px;
+    width: 128%;
+    grid-template-columns: 1fr 350px 350px;
+    grid-template-rows: 100%;
+    justify-content: space-between;
+    position: relative;
+    grid-column-gap: 8px;
+    /* flex-wrap: wrap; */
+}
+
+
+
+.part-mbu {
+    align-self: center;
+}
+
+.places {
+    font-weight: bold;
+    font-size: 40px;
+    /* margin-bottom: 34px; */
+    font-family: Georgia;
+    /* width:50%; */
+}
+
+.slide-1 {
+    background-color: rgb(163, 241, 117);
+    /* width: 290px; */
+    height: 100%;
+    padding: 25px;
+    border-radius: 50px;
+    position: relative;
+/* margin: 10px; */
+}
+
+
+.guy {
+    width: 80px;
+    margin-bottom: 45px;
+}
+
+.slide-1-text {
+    /* width: 160%; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+@media (max-width: 830px) {
+    /* .slide-1-text {
+        font-size: 1.9rem;
+    } */
+    /* .places {
+        width:100%;
+    } */
+
+}
+
+@media (max-width: 640px) {
+    /* .slide-1-text {
+        font-size: 1.1rem;
+    } */
+}
+
+.watch {
+    position: absolute;
+    bottom: 25px;
+}
+
+.gerald {
+    position: absolute;
+    bottom: 25px;
+}
+
+.slide-2 {
+    /* margin-left: 10px; */
+    background-color: rgb(0, 50, 0);
+    position: relative;
+    color: rgb(163, 241, 117);
+    /* grid-column: 2/4; */
+    /* right: -800px;
+    top: -755px; */
+}
+
+/* .container {
+    border: solid;
+    height: 100%;
+} */
+@media (max-width: 780px) {
+    .section-6 {
+ 
+        /* padding: 80px 20px 80px 20px; */
+        /* display: grid; */
+         height: 700px;
+        width: auto;
+        grid-template-columns: 350px 350px 350px;
+        grid-template-rows: 1fr 3fr;
+        /* justify-content: space-between; */
+        /* position: relative; */
+        /* grid-column-gap: 8px; */
+    }
+    .part-mbu {
+        grid-area: 1/1/2/4;
+    }
+    
+    /* .slide-1 {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+    }
+    .slide-2 {
+        grid-area: 2/2/3/3;
+    } */
+
+}
+
+@media (max-width: 700px) {
+    .places {
+        width: 50%;
+    }
+}
+
+.section-7 {
+    background-color: rgb(10, 70, 10);
+    padding: 150px 80px 140px 100px;
+}
+
+.borders {
+    color: rgb(163, 241, 117);
+}
+
+.dream {
+    font-weight: bold;
+    /* width: 365px; */
+    font-size: 20px;
+    font-family: Georgia;
+    margin-bottom: 26px;
+    color: #fff;
+    margin-bottom: 50px;
+    line-height: 27px;
+}
+
+.fruits {
+    width: 760px;
+    margin-bottom:50px;
+}
+
+.wise-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.global {
+    color: #fff;
+}
+
+.happy-belief {
+    display: flex;
+    justify-content: space-between;
+}
+
+.happy {
+    height: 400px;
+}
+
+.believe {
+    align-self: center;
+}
+
+.belief {
+    color:rgb(163, 241, 117);
+}
+
+.section-8 {
+    margin: 150px 20px 200px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.every {
+    margin-bottom: 60px;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+
+.keep-money {
+    width: 250px;
+}
+
+.flex-3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0px 100px 0px;
+    font-family: Cambria, Cochin, Georgia;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.foot {
+    margin: 0px 70px 0px 70px;
+}
+.lef, .right {
+    margin: auto;
+}
+
+
+.section-9 {
+    padding: 40px 40px 200px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(240, 240, 240);
+}
+
+.acc {
+    padding: 10px 0px 10px 0px;
+}
+
+.acco {
+    justify-content: flex-start;
+}
+
+.country-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 70px;
+    margin-bottom: 100px;
+}
+
+@media (max-width:800px){
+    .country-grid {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows:auto;
+            grid-column-gap: 70px;
+            grid-row-gap: 50px;
+        }
+}
+
+@media (max-width:600px){
+    .country-grid {
+            grid-template-columns: 1fr;
+            grid-template-rows:auto;
+            grid-gap: 40px;
+        }
+}
+
+.flex-81 {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-8 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+.link-head {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.links {
+    color: black;
+    font-weight: light;
+    line-height: 23px;
+    display: flex;      /*fun fact i used this line just to make the links line up 
+                        like divs next to each other column-wise rather than the 
+                        normal row-wise arrangement of links */
+    flex-direction: column;     /*this line does nothing nothing.it does matter if it
+                                is row or column coz each "links" element only has
+                                1 item*/
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.wise-center {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.wiz-center {
+    width: 60%;
+    margin: auto;
+}
+
+.linky{
+    color: black;
+}
